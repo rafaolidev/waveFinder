@@ -349,7 +349,7 @@ function createMarker(latlng, name, address, index,phoneNumber, openStatusText, 
            <div class="circle">
            <img src="https://cdn1.iconfinder.com/data/icons/holiday-and-recreation/91/06-512.png">
            </div>
-           <a class="infos"href="https://www.google.com/maps/dir/?api=1&destination=${address}" targer="blank"> 
+           <a class="infos"href="https://www.google.com/maps/dir/?api=1&destination=${address}" target="_blank"> 
            ${address}
            </div>
            <div class="phoneNumber">
