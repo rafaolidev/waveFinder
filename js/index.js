@@ -351,12 +351,13 @@ function createMarker(latlng, name, address, index,phoneNumber, openStatusText, 
            </div>
            <a class="infos"href="https://www.google.com/maps/dir/?api=1&destination=${address}" target="_blank"> 
            ${address}
+           </a>
            </div>
            <div class="phoneNumber">
            <div  class="circle">
            <i class="fas fa-exclamation-triangle"></i>
            </div>
-           </a>
+           
            ${phoneNumber}
            </div>
     </div>

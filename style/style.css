@@ -191,4 +191,15 @@ body {
     text-decoration: none;
     color: black;
 }
+.twitter-feed {
+    float: right;
+    z-index: 100;
+    top: 100px;
+    width: 300px;
+    position: absolute;
+    height: 298px;
+    margin-left: 70%;
+    overflow: scroll;
+    border-radius: 20px;
+    overflow-x: hidden;
 }
